@@ -89,7 +89,7 @@ export default function App() {
             <Text style={styles.jogadorO}>O</Text>
           </TouchableOpacity>
         </View>
-        <View style={styles.dev}>Desenvolvido por Davi Roque </View>
+        <Text style={styles.dev}>Desenvolvido por Davi Roque </Text>
         <View style={styles.dev}>Hackathon Estação Hack from Facebook </View>
       </View>
     );
@@ -127,7 +127,7 @@ export default function App() {
         >
           <Text style={styles.textoBotaoMenu}> MENU </Text>
         </TouchableOpacity>
-        <View style={styles.dev}>Desenvolvido por Davi Roque </View>
+        <Text style={styles.dev}>Desenvolvido por Davi Roque </Text>
       </View>
     );
   }
@@ -157,7 +157,7 @@ export default function App() {
         >
           <Text style={styles.textoBotaoMenu}> MENU </Text>
         </TouchableOpacity>
-        <View style={styles.dev}>Desenvolvido por Davi Roque </View>
+        <Text style={styles.dev}>Desenvolvido por Davi Roque </Text>
       </View>
     );
   }
